@@ -66,7 +66,7 @@ class Discriminator(nn.Module):
                                    nn.Linear(512, 512), 
                                    nn.Dropout(0.4), 
                                    nn.LeakyReLU(0.2), 
-                                   # TODO: 添加最后一个线性层，最终输出为一个实数
+                                   # TODO: 添加最后一个线性层，最终输出为一个实数.。。。
                                    )
 
     def execute(self, img, labels):
